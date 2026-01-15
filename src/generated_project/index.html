@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Solutions – Innovative Services for Modern Businesses</title>
+    <meta name="description" content="Acme Solutions provides cutting‑edge web development, design, and digital marketing services to help your business grow online.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Acme Solutions – Innovative Services for Modern Businesses" />
+    <meta property="og:description" content="Cutting‑edge web development, design, and digital marketing services to help your business grow online." />
+    <meta property="og:image" content="https://example.com/assets/og-image.jpg" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with sticky navigation -->
+    <header class="site-header" role="banner">
+        <nav class="main-nav" role="navigation" aria-label="Primary navigation">
+            <ul class="nav-list">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero" role="region" aria-labelledby="hero-heading">
+        <h1 id="hero-heading">Welcome to Acme Solutions</h1>
+        <p class="tagline">Innovative services that drive your business forward.</p>
+        <a href="#services" class="cta-button" role="button">Explore Our Services</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services" role="region" aria-labelledby="services-heading">
+        <h2 id="services-heading">Our Services</h2>
+        <div class="services-grid">
+            <article class="service-card" tabindex="0" aria-labelledby="service1-title">
+                <svg aria-hidden="true" focusable="false" class="service-icon" width="48" height="48"><!-- placeholder icon --></svg>
+                <h3 id="service1-title">Web Development</h3>
+                <p>Responsive, fast, and SEO‑friendly websites built with the latest technologies.</p>
+            </article>
+            <article class="service-card" tabindex="0" aria-labelledby="service2-title">
+                <svg aria-hidden="true" focusable="false" class="service-icon" width="48" height="48"><!-- placeholder icon --></svg>
+                <h3 id="service2-title">UI/UX Design</h3>
+                <p>Intuitive and engaging designs that provide an exceptional user experience.</p>
+            </article>
+            <article class="service-card" tabindex="0" aria-labelledby="service3-title">
+                <svg aria-hidden="true" focusable="false" class="service-icon" width="48" height="48"><!-- placeholder icon --></svg>
+                <h3 id="service3-title">Digital Marketing</h3>
+                <p>Strategic campaigns that increase visibility, traffic, and conversions.</p>
+            </article>
+            <!-- Add more service cards as needed -->
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery" role="region" aria-labelledby="gallery-heading">
+        <h2 id="gallery-heading">Gallery</h2>
+        <div class="gallery-grid">
+            <a href="assets/fullsize1.jpg" class="gallery-item" data-index="0" aria-label="Open image 1 in full size">
+                <img src="assets/thumb1.jpg" alt="Project screenshot 1">
+            </a>
+            <a href="assets/fullsize2.jpg" class="gallery-item" data-index="1" aria-label="Open image 2 in full size">
+                <img src="assets/thumb2.jpg" alt="Project screenshot 2">
+            </a>
+            <a href="assets/fullsize3.jpg" class="gallery-item" data-index="2" aria-label="Open image 3 in full size">
+                <img src="assets/thumb3.jpg" alt="Project screenshot 3">
+            </a>
+            <!-- Additional gallery items -->
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials" role="region" aria-labelledby="testimonials-heading">
+        <h2 id="testimonials-heading">What Our Clients Say</h2>
+        <div class="testimonial-carousel" aria-roledescription="carousel" aria-label="Client testimonials">
+            <blockquote class="testimonial" tabindex="0">
+                <p>"Acme Solutions transformed our online presence – traffic increased by 150%!"</p>
+                <cite>– Jane Doe, CEO of ExampleCorp</cite>
+            </blockquote>
+            <blockquote class="testimonial" tabindex="0">
+                <p>"Their design team delivered a stunning UI that our users love."</p>
+                <cite>– John Smith, Product Manager at Techify</cite>
+            </blockquote>
+            <!-- More testimonials -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" role="region" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Us</h2>
+        <p>Acme Solutions is a full‑service digital agency dedicated to helping businesses succeed online. Our team of experts combines creativity, technology, and strategy to deliver results.</p>
+        <img src="assets/team-photo.jpg" alt="Acme Solutions team" class="team-photo">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" role="region" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Get in Touch</h2>
+        <form id="contactForm" novalidate>
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" aria-label="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" aria-label="Phone" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" aria-label="Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <p>&copy; <span id="current-year"></span> Acme Solutions. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://facebook.com/acmesolutions" aria-label="Facebook" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://twitter.com/acmesolutions" aria-label="Twitter" target="_blank" rel="noopener">Twitter</a></li>
+            <li><a href="https://linkedin.com/company/acmesolutions" aria-label="LinkedIn" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

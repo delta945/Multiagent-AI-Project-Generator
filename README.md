@@ -2,7 +2,7 @@
 
 An intelligent AI-powered project generator that creates complete, production-ready codebases from natural language descriptions. Built with LangGraph and Streamlit, this tool transforms your ideas into functional applications in seconds.
 
-![Project Generator Demo](images/demo1.png)
+![Project Generator Demo](/images/images/demo1.png)
 
 ## ✨ Features
 
@@ -19,17 +19,17 @@ An intelligent AI-powered project generator that creates complete, production-re
 ### 1. Enter Your Project Description
 Simply describe what you want to build in natural language:
 
-![Entering project prompt](images/demo1.png)
+![Entering project prompt](/images/images/demo1.png)
 
 ### 2. View Generated Project Structure
 The AI creates a complete file structure with all necessary components:
 
-![Generated files overview](images/demo2.png)
+![Generated files overview](/images/images/demo2.png)
 
 ### 3. Inspect the Generated Code
 Every file contains complete, functional, well-structured code:
 
-![Code preview](images/demo3.png)
+![Code preview](/images/images/demo3.png)
 
 ## 🛠️ Installation
 
